@@ -1,0 +1,49 @@
+/* body {
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    width: 100vw; 
+} */
+
+.menu {
+    background: black;
+    height: 100vh;
+    width: 13vw;
+    color: rgb(23, 255, 73);
+}
+
+.logo {
+    font-size: 2rem;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: black;
+    font-size: 1.2rem;
+}
+.option {
+    padding: 1rem;
+    padding-left: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.single {
+    padding: 1rem;
+    padding-left: 1.3rem;
+}
+
+
+.inactive {
+    position: absolute;
+}
+
+.hidden {
+    font-size: 0px;
+}
+
